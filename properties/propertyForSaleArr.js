@@ -1,4 +1,4 @@
-export const propertyForSaleArr = [
+const propertyForSaleArr = [
   {
     propertyLocation: 'Kensington, London',
     priceGBP: 890000,
@@ -28,3 +28,5 @@ export const propertyForSaleArr = [
     image: 'shed.jpg',
   },
 ];
+
+export default propertyForSaleArr;

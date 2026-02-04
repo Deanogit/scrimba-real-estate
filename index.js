@@ -1,5 +1,6 @@
 import placeholderPropertyObj from './properties/placeholderPropertyObj.js';
-import propertyForSaleArr from './properties/propertyForSaleArr';
+console.log(placeholderPropertyObj);
+import propertyForSaleArr from './properties/propertyForSaleArr.js';
 
 // use default parameter [placeholderPropertyObj] if no argument is passed
 function getPropertyHtml(arr = [placeholderPropertyObj]) {
